@@ -1,4 +1,16 @@
-var lyw = {
+var lyv = {
+    imperfect:{
+        active:{
+            indicative:[
+
+            ]
+        },
+        middle:{
+            indicative:[
+                
+            ]
+        },
+    },
     present: {
         active: {
             infinitive: 'λύειν',
@@ -30,25 +42,6 @@ var lyw = {
                 ['λύωμαι', 'λυώμεθα'],
                 ['λύῃ', 'λύησθε'],
                 ['λύηται', 'λύωνται']
-            ],
-            optative: [
-                
-            ],
-            participle: [
-
-            ]
-        },
-        passive: {
-            infinitive: 'λῦσαι',
-            indicative: [
-                ['λύω', 'λύομεν'],
-                ['λύεις', 'λύετε'],
-                ['λύει', 'λύουσιν || λύουσι']
-            ],
-            subjunctive: [
-                ['λύω', 'λύωμεν'],
-                ['λύῃς', 'λύητε'],
-                ['λύῃ', 'λύωσιν || λύωσι']
             ],
             optative: [
                 
@@ -119,14 +112,11 @@ var lyw = {
     },
     perfect: {
         active: {
-
+            infinitive: 'λελυκέναι',
         },
         middle: {
 
         },
-        passive: {
-
-        }
     },
     examples: [
 
@@ -567,8 +557,11 @@ var tiuhmi = {
             ]
         },
         middle: {
-            infinitive: '',
+            infinitive: 'θεῖναι',
             indicative: [
+                ['ἔθηκα','ἐθήκαμεν'],
+                ['ἔθηκας','ἐθήκατε'],
+                ['ἔθηκεν','ἔθηκαν'],
             ]
         },
         passive: {
@@ -619,29 +612,35 @@ var didvmi = {
             indicative: [
             ]
         },
-        passive: {
-            
-        }
     },
     aorist: {
         active: {
-            infinitive: '',
+            infinitive: 'δοῦναι',
             indicative: [
-                
+                ['ἔδωκα','ἐδώκαμεν'],
+                ['ἔδωκας','ἐδώκατε'],
+                ['ἔδωκεν','ἔδωκαν']
             ]
         },
         middle: {
 
         },
         passive: {
-
+            infinitive: 'δοθῆναι',
+            indicative: [
+                ['ἐδόθην','ἐδόθημεν'],
+                ['ἐδόθης','ἐδόθητε'],
+                ['ἐδόθη','ἐδόθησαν'],
+            ]
         }
     },
     perfect: {
         active: {
-            infinitive: '',
+            infinitive: 'δεδωκέναι',
             indicative: [
-                
+                ['δέδωκα','δεδώκαμεν'],
+                ['δέδωκας','δεδώκατε'],
+                ['δέδωκεν','δέδωκαν']
             ]
         },
         middle: {
