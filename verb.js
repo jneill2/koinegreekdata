@@ -1,4 +1,4 @@
-var lyv = {
+var lyw = {
     present: {
         active: {
             infinitive: 'λύειν',
